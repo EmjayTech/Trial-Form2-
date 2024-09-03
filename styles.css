@@ -1,0 +1,85 @@
+body{
+    font-family: Montserrat;
+    background-color: hsl(148, 38%, 91%);
+    
+}
+#body-div{
+    border: 3px;
+    align-self: center;
+    display: inline-block;
+    background-color: white;
+    border-radius: 20px;
+    margin: 150px 250px;
+}
+h1{
+    padding: 20px;
+}
+.container{
+    border-radius: 5px;
+    padding: 20px;
+}
+
+input[type=text], input[type=email], textarea{
+    width: 100%;
+    padding: 12px;
+    border: 1px solid;
+    border-radius: 6px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 15px;
+    resize: vertical;
+}
+button{
+    cursor: pointer;
+    width: 100%;
+    background-color: hsl(169, 82%, 27%);
+    border: none;
+    color: white;
+    padding: 12px 20px;
+    border-radius: 5px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+button:hover{
+    background-color: rgb(10, 66, 10);
+}
+
+
+
+@media (min-width: 375px) {
+    .sm\:w-\[200px\] {
+        width: 200px;
+    }
+}
+
+@media (max-width: 1440px) {
+    .lg\:w-\[200px\]{
+        margin-top: 200px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+}
+.attribution a {
+     color: hsl(228, 45%, 44%); 
+    }
+.attribution a:hover{
+    color: red;
+}
